@@ -1,0 +1,36 @@
+* {
+    background-color: #1f2937;
+}
+
+#links ul {
+    display: flex;
+}
+
+#header {
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#intro-box.side1 {
+    width: 150px;
+    margin-left: 150px;
+}
+
+.image1{
+margin-left: auto;
+padding: right;
+}
+
+.flex-container{
+    border: 4px solid brown;
+    height: 800px;
+
+}
+
+
+button{
+    align-items: center;
+}
