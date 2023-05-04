@@ -1,44 +1,146 @@
 * {
-    background-color: #1f2937;
-    flex: 1;
+  background-color: #1f2937;
+  flex: 1;
 }
 
 #links ul {
-    display: flex;
+  display: flex;
+  color: aliceblue;
 }
 
-
-
 #header {
-    background-color: #1f2937;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  background-color: #1f2937;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .text {
-    font-size: 20px;
-    padding-left: 20px;
-    float: left;
+  font-size: 20px;
+  padding-left: 20px;
+  float: left;
+  margin-right: 70px;
+  color: aliceblue;
 }
 
 .title {
-    text-align: right;
-    margin-right: 70px;
-    color: aliceblue;
-    font-size: larger;
-    font-style: normal;
-
+  text-align: right;
+  margin-right: 70px;
+  color: aliceblue;
+  font-size: larger;
+  font-style: normal;
+  margin-bottom: 50px;
+  margin-left: 70px;
 }
+
+.image-set {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  margin-top: 70px;
+  padding-top: 24px;
+  text-shadow: 30px;
+  
+}
+
+.quote {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px;
+  font-size: medium;
+  font-style: italic;
+}
+
+.quote-name {
+  color: aliceblue;
+  text-align: right;
+  margin-right: 55px;
+}
+
+.signup {
+  text-align: center;
+  color: blue;
+  margin-top: 70px;
+  display: flexbox;
+}
+
+.item {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+}
+
+.link2 {
+  color: aliceblue;
+  background-color: blue;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.Copyright {
+  margin-top: 150px;
+  color: aliceblue;
+}
+
+.product-farm {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 70px;
+  gap: 10px;
+}
+
+.first-link {
+  text-align: center;
+  background-color: rgb(0, 89, 255);
+  color: aliceblue;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.list-name {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+  padding-top: 24px;
+  gap: 40px;
+  color: aliceblue;
+}
+
+.logo-title {
+  color: yellow;
+  margin-top: 4px;
+  font-stretch: expanded;
+  font-feature-settings: "abvf";
+  font-style: oblique;
+  font-kerning: auto;
+  font-variant: normal;
+  display:inline;
+  
+}
+
+
+  
+  
