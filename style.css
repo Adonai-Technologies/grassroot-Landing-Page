@@ -1,12 +1,13 @@
 * {
     background-color: #1f2937;
-    flex: 1
-    
+    flex: 1;
 }
 
 #links ul {
     display: flex;
 }
+
+
 
 #header {
     background-color: #1f2937;
@@ -16,23 +17,28 @@
     justify-content: space-around;
 }
 
-#intro-box.side1 {
-    width: 150px;
-    margin-left: 150px;
-}
-
-.image1{
-margin-left: auto;
-padding: right;
-}
-
-.flex-container{
-    border: 4px solid brown;
-    height: 800px;
-
-}
-
-
-button{
+.container {
+    display: flex;
     align-items: center;
+    justify-content: center
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+.title {
+    text-align: right;
+    margin-right: 70px;
+    color: aliceblue;
+    font-size: larger;
+    font-style: normal;
+
 }
